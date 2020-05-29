@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch",
+    "test:staged": "jest"
+  },
+  "standard": {
+    "env": ["jest"]
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,11 @@
   },
   "homepage": "https://github.com/alessandrolorenz/clean-node-api-JS-youtube#readme",
   "devDependencies": {
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "jest-cli": "^26.0.1",
+    "lint-staged": "^10.2.7",
     "standard": "^14.3.4"
-  }
+  },
+  "dependencies": {}
 }
