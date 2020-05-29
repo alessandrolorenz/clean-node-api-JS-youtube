@@ -1,0 +1,22 @@
+{
+  "name": "clean-node-api-js-youtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessandrolorenz/clean-node-api-JS-youtube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alessandrolorenz/clean-node-api-JS-youtube/issues"
+  },
+  "homepage": "https://github.com/alessandrolorenz/clean-node-api-JS-youtube#readme",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
+}
